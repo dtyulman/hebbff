@@ -9,9 +9,9 @@ from torch import nn
 from torch.nn import functional as F
 from torch.utils.tensorboard import SummaryWriter
 
-#%%##########################
-### Abstract Base Classes ###
-#############################
+#%%#################
+### Base Classes ###
+####################
    
 class NetworkBase(nn.Module): 
     def __init__(self):
